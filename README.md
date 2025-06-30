@@ -76,6 +76,10 @@ csv_file = (
 )
 project_dir = "/Change/it/to/your/path/ChineseDigitRecognition"
 ```
+
+```
+checkpoint = torch.load("/Change/it/to/your/path/ChineseDigitRecognition/model_checkpoint.pth")
+```
 <small>DataAdjustment.py</small>
 ```
 project_root_dir = "/Change/it/to/your/path/ChineseDigitRecognition/"
