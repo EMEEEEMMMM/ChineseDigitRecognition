@@ -1,7 +1,7 @@
 import os
 import shutil
 
-project_root_dir = "/Change/it/to/your/path/ChineseDigitRecognition/"
+project_root_dir = "/home/bear/AI_GO/pytorch_practice/ChineseDigitRecognition/"
 data_pic_dir = "data/data"
 pic_dir = os.path.join(project_root_dir, data_pic_dir)
 pics = os.listdir(pic_dir)
