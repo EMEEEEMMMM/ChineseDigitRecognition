@@ -9,9 +9,9 @@ pics = os.listdir(pic_dir)
 if os.path.exists(os.path.join(pic_dir, "train_pic")) or os.path.exists(
     os.path.join(pic_dir, "test_pic")
 ):
-    print("存在")
+    print("path exists")
 else:
-    print("不存在")
+    print("path dosen't exists")
     os.mkdir(os.path.join(pic_dir, "train_pic"))
     os.mkdir(os.path.join(pic_dir, "test_pic"))
 
